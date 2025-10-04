@@ -1,17 +1,45 @@
- body {
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,499;1,499&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset some default browser styles for consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background-color: aqua;
- }
- #Profiili {
+  font-family: 'Work Sans', Arial, sans-serif;
+}
+
+/* Profile image style */
+#Profiili {
   position: absolute;
   left: 9px;
   top: 55px;
   width: 100px;
- }
+}
+
+/* Headings and paragraphs */
 h2, p {
   margin: 10px;
 }
 
-ul {
+h2 {
+  border: 1px solid black;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #00a2e8;
+  padding: 1rem;
+  text-decoration: underline;
+  font-family: 'Epunda Sans', sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Navigation styles */
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,67 +47,46 @@ ul {
   display: flex;
 }
 
-ul li a {
+nav ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: "Epunda Sans", sans-serif;
+  font-family: 'Epunda Sans', sans-serif;
+  transition: background-color 0.2s;
 }
 
-ul li a:hover:not(.active) {
+nav ul li a:hover:not(.active),
+nav ul li a.active {
   background-color: #00a2e8;
 }
 
-ul li a.active {
-  background-color: #00a2e8;
-}
- header {
-  margin-left: 0px;
-  margin-top: 0px;
-  padding: 10%;
+/* Header section */
+header {
+  margin-left: 0;
+  margin-top: 0;
+  padding: 5% 10%;
   text-align: center;
-  font-size: 40px;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  font-size: 2.5rem;
+  border: 1px solid black;
   background-color: #00a2e8;
-  font-family: "Epunda Sans", sans-serif;
- }
+  font-family: 'Epunda Sans', sans-serif;
+}
 
- h2 {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-  font-size: 30px;
-  text-align: center;
-  background-color: #00a2e8;
-  padding: 1%;
-  text-decoration: underline;
-  font-family: "Epunda Sans", sans-serif;
-  margin-left: 0%;
-  margin-right: 0%;
- }
-section {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-  font-size: 18px;
+/* Main content section */
+main section {
+  border: 1px solid black;
+  font-size: 1.125rem;
   text-align: center;
   background-color: #b3b3b3;
   padding: 5%;
   margin-top: 2%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
+
+/* Paragraphs */
 p {
-  font-size: 18px;
-  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  font-family: 'Work Sans', sans-serif;
+  margin: 10px 0;
 }
-  
-      
-
-
-@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,499;1,499&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
