@@ -58,7 +58,7 @@ nav ul li a {
 
 nav ul li a:hover:not(.active),
 nav ul li a.active {
-  background-color: #00a2e8;
+  background-color: aqua;
 }
 
 /* Header section */
@@ -90,3 +90,4 @@ p {
   font-family: 'Work Sans', sans-serif;
   margin: 10px 0;
 }
+
