@@ -12,8 +12,8 @@ body {
 #Profiili {
   position: absolute;
   left: 9px;
-  top: 75px;
-  width: 100px;
+  top: 90px;
+  width: 150px;
 }
 
 /* Navigation styles */
@@ -67,4 +67,5 @@ p {
   font-family: 'Work Sans', sans-serif;
   margin: 10px 0;
 }
+
 
