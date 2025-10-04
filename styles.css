@@ -12,7 +12,7 @@ body {
 #Profiili {
   position: absolute;
   left: 9px;
-  top: 55px;
+  top: 75px;
   width: 100px;
 }
 
@@ -67,3 +67,4 @@ p {
   font-family: 'Work Sans', sans-serif;
   margin: 10px 0;
 }
+
