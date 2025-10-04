@@ -1,0 +1,85 @@
+ body {
+  background-color: aqua;
+ }
+ #Profiili {
+  position: absolute;
+  left: 9px;
+  top: 55px;
+  width: 100px;
+ }
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Epunda Sans", sans-serif;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #00a2e8;
+}
+
+ul li a.active {
+  background-color: #00a2e8;
+}
+ header {
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 10%;
+  text-align: center;
+  font-size: 40px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  background-color: #00a2e8;
+  font-family: "Epunda Sans", sans-serif;
+ }
+
+ h2 {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  font-size: 30px;
+  text-align: center;
+  background-color: #00a2e8;
+  padding: 1%;
+  text-decoration: underline;
+  font-family: "Epunda Sans", sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+ }
+section {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  font-size: 18px;
+  text-align: center;
+  background-color: #b3b3b3;
+  padding: 5%;
+  margin-top: 2%;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+}
+  
+      
+
+
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,499;1,499&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
