@@ -10,9 +10,9 @@ body {
 
 /* Profile image style */
 #Profiili {
-  position: absolute;
+  float: left;
   left: 9px;
-  top: 90px;
+  top: 250px;
   width: 100px;
 }
 
@@ -73,6 +73,7 @@ p {
     background-color: lightblue;
   }
 }
+
 
 
 
