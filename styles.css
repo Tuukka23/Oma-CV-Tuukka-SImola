@@ -13,7 +13,7 @@ body {
   position: absolute;
   left: 9px;
   top: 90px;
-  width: 150px;
+  width: 100px;
 }
 
 /* Navigation styles */
@@ -73,6 +73,7 @@ p {
     background-color: lightblue;
   }
 }
+
 
 
 
